@@ -30,10 +30,10 @@ Get your API key from NewsAPI.
 Replace the placeholder apiKey in the news-fetching section of the code with your key.
 
 How Luna Works:-
-1. Wake Word Detection
+1. Wake Word Detection:
 Luna listens for the wake word "Luna" to activate.
 
-2. Command Processing
+2. Command Processing:
 "Open Google" → Opens Google in your default browser.
 
 "Play <song name>" → Searches YouTube and plays the first result.
@@ -42,7 +42,7 @@ Luna listens for the wake word "Luna" to activate.
 
 Other Queries → Sent to Google Gemini for smart responses.
 
-3. Speech Output
+3. Speech Output:
 Luna provides verbal responses using Google Text-to-Speech (gTTS).
 Audio is played back through pygame for smooth audio playback.
 
